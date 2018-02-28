@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mailSpider", "mailSpider.csproj", "{7BFBAF22-0305-42CC-9255-25672CB2EAD2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "install", "..\install\install.vdproj", "{2E876FEA-AD6D-415E-B0AD-EF2B6556DA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "..\test\test.csproj", "{C0415EE1-0903-457D-BB40-4C01C83AFC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regiester", "..\regiester\regiester.csproj", "{AA358533-52E1-49CC-BFEC-DB78276C7267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "urlListener", "..\BHO_HelloWorld\urlListener.csproj", "{D394D028-FDC5-4222-9CCE-2AE61FF351C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BFBAF22-0305-42CC-9255-25672CB2EAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFBAF22-0305-42CC-9255-25672CB2EAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFBAF22-0305-42CC-9255-25672CB2EAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E876FEA-AD6D-415E-B0AD-EF2B6556DA84}.Debug|Any CPU.ActiveCfg = Release
+		{2E876FEA-AD6D-415E-B0AD-EF2B6556DA84}.Release|Any CPU.ActiveCfg = Release
+		{2E876FEA-AD6D-415E-B0AD-EF2B6556DA84}.Release|Any CPU.Build.0 = Release
+		{C0415EE1-0903-457D-BB40-4C01C83AFC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0415EE1-0903-457D-BB40-4C01C83AFC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA358533-52E1-49CC-BFEC-DB78276C7267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA358533-52E1-49CC-BFEC-DB78276C7267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D394D028-FDC5-4222-9CCE-2AE61FF351C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D394D028-FDC5-4222-9CCE-2AE61FF351C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D394D028-FDC5-4222-9CCE-2AE61FF351C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
